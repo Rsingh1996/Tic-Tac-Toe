@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./style/styles.css">
+    <title>Tic-Tac-Toe</title>
+    
+
+</head>
+<body>
+    <section class="container">
+        <h1 class="game-title" >Tic Tac Toe</h1>
+<table id="board">
+  <tr>
+    <td id="0"  class=" box box-top-left"></td>
+    <td id="1"  class=" box box-top"></td>
+    <td id="2"  class=" box box-top-right"></td>
+  </tr>
+  <tr>
+    <td id="3"  class=" box box-center-left"><h1></h1></td>
+    <td id="4"  class=" box box-center"><h1></h1></td>
+    <td id="5"  class=" box box-center-right"><h1></h1></td>
+  </tr>
+  <tr>
+    <td id="6"  class=" box box-bottom-left"></td>
+    <td id="7"  class=" box box-bottom"></td>
+    <td id="8"  class=" box box-bottom-right"></td>
+  </tr>
+</table>
+<div class="score-board">
+  <h2 class="game-status"></h2>
+    <table class="score-board">
+        <tr>
+        <td><H3>Player(X)</H3><div class="score-X">0</div></td>
+        <td><H3>Tie</H3><div class="tie">0</div></td>
+        <td><H3>Player(0)</H3><div class="score-O">0</div></td>
+        </tr>
+    </table>
+    <button class="game-restart">Restart Game</button>
+</div>
+    </section>
+    
+    <!-- JS link -->
+    <script src="index.js"></script>
+</body>
+</html>
